@@ -7,7 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
-    <div class="container">
+    <div class="container-xxl bg-light">
         <h1 class="text-primary mb-5">My first Bootstrap page</h1>
         <p>Lorem ipsum dolor sit <span class="text-white bg-dark">amet consectetur, adipisicing elit.</span> Esse qui accusamus temporibus quod saepe nulla mollitia, ipsa corrupti beatae neque eius quos, aut magnam adipisci eos consectetur inventore nam! Quod?</p>
         <p class="text-danger">Ez itt egy nagyon fontos üzenet</p>
@@ -63,6 +63,51 @@
                 <li class="alert alert-white">Fehér (white) szín</li>
             </ul>
     </div>
+
+    <div class="container">
+        <h1>Grid system</h1>
+        <h2>3 oszlopos elrenderzés</h2>
+        <div class="row">
+            <div class="col">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam similique incidunt rem consequuntur quo cupiditate maiores quidem provident voluptatem labore. Ut quos ullam ducimus voluptas animi consectetur, voluptates ex perspiciatis!</div>
+            <div class="col">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi iste ipsa cupiditate excepturi mollitia praesentium inventore molestiae expedita cumque numquam ex alias corrupti dicta eum blanditiis, voluptatibus voluptatem officia necessitatibus.</div>
+            <div class="col">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores eaque quia vitae. Autem eaque fugit magnam. Architecto officia nesciunt eum ut veniam modi eveniet. Voluptate vel autem cum illum dolorum.</div>
+        </div>
+
+
+        <h2>2 oszlopos elrenderzés</h2>
+        <div class="row">
+            <div class="col-6">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam similique incidunt rem consequuntur quo cupiditate maiores quidem provident voluptatem labore. Ut quos ullam ducimus voluptas animi consectetur, voluptates ex perspiciatis!</div>
+            <div class="col-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi iste ipsa cupiditate excepturi mollitia praesentium inventore molestiae expedita cumque numquam ex alias corrupti dicta eum blanditiis, voluptatibus voluptatem officia necessitatibus.</div>
+            <div class="col-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores eaque quia vitae. Autem eaque fugit magnam. Architecto officia nesciunt eum ut veniam modi eveniet. Voluptate vel autem cum illum dolorum.</div>
+        </div>
+
+        <h2>Reszponzív elrenderzés</h2>
+        <div class="row">
+            <div class="col-6 col-md-4 col-xl-3 col-xxl-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam similique incidunt rem consequuntur quo cupiditate maiores quidem provident voluptatem labore. Ut quos ullam ducimus voluptas animi consectetur, voluptates ex perspiciatis!</div>
+            <div class="col-6 col-md-4 col-xl-3 col-xxl-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi iste ipsa cupiditate excepturi mollitia praesentium inventore molestiae expedita cumque numquam ex alias corrupti dicta eum blanditiis, voluptatibus voluptatem officia necessitatibus.</div>
+            <div class="col-6 col-md-4 col-xl-3 col-xxl-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores eaque quia vitae. Autem eaque fugit magnam. Architecto officia nesciunt eum ut veniam modi eveniet. Voluptate vel autem cum illum dolorum.</div>
+            <div class="col-6 col-md-4 col-xl-3 col-xxl-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores eaque quia vitae. Autem eaque fugit magnam. Architecto officia nesciunt eum ut veniam modi eveniet. Voluptate vel autem cum illum dolorum.</div>
+            <div class="col-6 col-md-4 col-xl-3 col-xxl-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores eaque quia vitae. Autem eaque fugit magnam. Architecto officia nesciunt eum ut veniam modi eveniet. Voluptate vel autem cum illum dolorum.</div>
+            <div class="col-6 col-md-4 col-xl-3 col-xxl-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores eaque quia vitae. Autem eaque fugit magnam. Architecto officia nesciunt eum ut veniam modi eveniet. Voluptate vel autem cum illum dolorum.</div>
+        </div>
+
+        <h2>Változó oszlop szélesség</h2>
+        <div class="row">
+            <div class="col-2 bg-info">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam similique incidunt rem consequuntur quo cupiditate maiores quidem provident voluptatem labore. Ut quos ullam ducimus voluptas animi consectetur, voluptates ex perspiciatis!</div>
+            <div class="col-8 bg-success">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi iste ipsa cupiditate excepturi mollitia praesentium inventore molestiae expedita cumque numquam ex alias corrupti dicta eum blanditiis, voluptatibus voluptatem officia necessitatibus.</div>
+            <div class="col-2 bg-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores eaque quia vitae. Autem eaque fugit magnam. Architecto officia nesciunt eum ut veniam modi eveniet. Voluptate vel autem cum illum dolorum.</div>
+        </div>
+
+
+        <h2>Számított oszlop szélesség</h2>
+        <div class="row text-white">
+            <div class="col bg-info">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam similique incidunt rem consequuntur quo cupiditate maiores quidem provident voluptatem labore. Ut quos ullam ducimus voluptas animi consectetur, voluptates ex perspiciatis!</div>
+            <div class="col-7 bg-success">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi iste ipsa cupiditate excepturi mollitia praesentium inventore molestiae expedita cumque numquam ex alias corrupti dicta eum blanditiis, voluptatibus voluptatem officia necessitatibus.</div>
+            <div class="col bg-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores eaque quia vitae. Autem eaque fugit magnam. Architecto officia nesciunt eum ut veniam modi eveniet. Voluptate vel autem cum illum dolorum.</div>
+        </div>
+
+    </div>
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
